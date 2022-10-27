@@ -53,6 +53,10 @@ namespace BinaryTree
                 this.Righttree.Display();
             }
         }
+        public void GetSize()
+        {
+            Console.WriteLine("Size Of the BST is :"+(1+this.leftcount+this.rightcount));
+        }
 
 
     }
