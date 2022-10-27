@@ -18,6 +18,7 @@
             binary.add(63);
             binary.add(67);
             binary.Display();
+            binary.Search(63, binary);
             binary.GetSize();
 
 
